@@ -9,7 +9,7 @@
 ১)  [__লেকচার - ০১ - Download and install R and RStudio__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-01.md)
 
 
-2)  [__লেকচার - ০2 - Dataframe in R__](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lecture-02.R)
+২)  [__লেকচার - ০2 - Dataframe in R__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-02.md)
 
 ## 
 
