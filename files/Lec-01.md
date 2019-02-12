@@ -55,5 +55,5 @@ version
   <a href="https://www.facebook.com/groups/390262838074549/">facebook group</a> |
   <a href="https://www.youtube.com/channel/UCm-8CdrvGi2SjLEOUSCztIg?view_as=subscriber">YouTube</a>
   <br><br>
-  <img src="./files/logo.png" height="100" width="100">
+  <img src="../files/logo.png" height="100" width="100">
 </p>
