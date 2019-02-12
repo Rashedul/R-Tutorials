@@ -1,14 +1,4 @@
----
-title: "আর প্রোগ্রামিং টিউটোরিয়াল "
-author: 
-- "Rashedul Islam (Rony)"
-- "Email: rashedul.gen@gmail.com"
-output: 
-  html_document: 
-    highlight: textmate
-    keep_md: yes
----
-
+## আর প্রোগ্রামিং টিউটোরিয়াল
 
 ## আর প্রোগ্রামিং
 
