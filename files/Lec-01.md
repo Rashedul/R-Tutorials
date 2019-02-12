@@ -1,3 +1,7 @@
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=KL7a15o0WC4 "Everything Is AWESOME")
+
+
+
 
 প্রোগ্রামিং শুরুর আগে আগে কিছু সফটওয়্যার ইন্সটল করে নিতে হবে। R প্রোগ্রামিং পরিচিত সব প্ল্যাটফর্মেই করা যায় যেমন, Windows, Mac OS, Linux। 
 
@@ -39,7 +43,7 @@ version
 ## nickname       Eggshell Igloo
 ```
 
-[ক্লাসের পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/MyFirstScript.R) 
+[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/MyFirstScript.R) 
 
 
 ## 
