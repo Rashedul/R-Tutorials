@@ -6,9 +6,6 @@ output:
     keepx_md: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 প্রোগ্রামিং শুরুর আগে আগে কিছু সফটওয়্যার ইন্সটল করে নিতে হবে। R প্রোগ্রামিং পরিচিত সব প্ল্যাটফর্মেই করা যায় যেমন, Windows, Mac OS, Linux। 
 
