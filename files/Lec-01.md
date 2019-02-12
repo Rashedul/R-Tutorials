@@ -1,4 +1,4 @@
-[![Everything Is AWESOME](../files/logo.png)](https://www.youtube.com/watch?v=KL7a15o0WC4 "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=KL7a15o0WC4 "Everything Is AWESOME")
 
 
 
