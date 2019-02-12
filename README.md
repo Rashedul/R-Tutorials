@@ -11,6 +11,8 @@
 
 ২)  [__লেকচার - ০2 - Dataframe in R__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-02.md)
 
+৩)  [__লেকচার - ০৩ - Data structure in R__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-03.md)
+
 ## 
 
 ##
