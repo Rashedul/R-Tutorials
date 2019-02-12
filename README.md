@@ -1,14 +1,14 @@
-## আর প্রোগ্রামিং টিউটোরিয়াল
-
-## আর প্রোগ্রামিং
+## আর প্রোগ্রামিং টিউটোরিয়াল (R programming tutorials)
 
 
-বাংলায় আর প্রোগ্রামিং  
+বাংলায় আর প্রোগ্রামিং এর কোর্সটি   
 
 
-##লেকচার  সূচি 
+## লেকচার  সূচি 
 
-১)  [__অধ্যায় - ০১ - Download and install R and RStudio__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-01.md)     
+১)  [__লেকচার - ০১ - Download and install R and RStudio__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-01.md)
+
+2)  [__লেকচার - ০2 - Dataframe in R__](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lecture-02.R)
 
 ## 
 
