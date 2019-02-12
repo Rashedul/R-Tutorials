@@ -1,6 +1,6 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=KL7a15o0WC4 "Everything Is AWESOME")
 
-R প্রোগ্রামিং এর ডেটা স্ট্রাকচার ও উদাহরণ
+## R প্রোগ্রামিং এর ডেটা স্ট্রাকচার ও উদাহরণ
 
 R প্রোগ্রামিং এ আমরা  বিভিন্ন ধরনের ডেটা নিয়ে কাজ করতে পারি বিশেষ করে টেবিল ডেটা, যেখানে ডেটা সারি ও কলাম আকারে সাজানো থাকে। R প্রোগ্রামিং ৫ ধরনের ডেটা স্ট্রাকচার (Data structure) ব্যবহার করে থাকে, যেমন vector, matrix, list, data frame ও  factor। এখানে ডেটা স্ট্রাকচার বলতে বোঝাচ্ছে কিভাবে  R প্রোগ্রামিং ল্যাঙ্গুয়েজ তার ডেটা সাজিয়ে রাখে সেটা।
  
@@ -111,7 +111,7 @@ ls()
 rm(list=ls(all=TRUE)) #`rm` means remove and `all=TRUE` means remove all objects.
 ```
 
-অনুশীলনীঃ 
+## অনুশীলনীঃ 
 
 ১) একটি ভেক্টরকে, x কে ডেটাফ্রেম y রূপান্তর করুন। 
 
