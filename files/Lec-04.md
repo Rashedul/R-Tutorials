@@ -18,7 +18,7 @@
 
 ## Script
 
-[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lecture-02.R) 
+[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-04.R) 
 
 
 ## 
