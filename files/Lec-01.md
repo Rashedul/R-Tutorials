@@ -1,5 +1,3 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=lafxMD71tDo&t=437s "Everything Is AWESOME")
-
 ## সফটওয়্যার ইন্সটল
 
 প্রোগ্রামিং শুরুর আগে আগে কিছু সফটওয়্যার ইন্সটল করে নিতে হবে। R প্রোগ্রামিং পরিচিত সব প্ল্যাটফর্মেই করা যায় যেমন, Windows, Mac OS, Linux। 
@@ -46,6 +44,10 @@ version
 
 [ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/MyFirstScript.R) 
 
+
+## ভিডিও লেকচার
+
+[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=lafxMD71tDo&t=437s "Everything Is AWESOME")
 
 ## 
 
