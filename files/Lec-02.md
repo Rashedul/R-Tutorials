@@ -1,5 +1,12 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=KL7a15o0WC4 "Everything Is AWESOME")
 
+- `dataframe` হচ্ছে সবচেয়ে বেশি R ডেটা স্ট্রাকচার। 
+
+- অধিকাংশ পেকেজ বা R ফাংশন `dataframe` কে ব্যবহার করে। 
+
+- একটি `dataframe` এ কিকি ধরনের উপাদান রয়েছে বা কি তথ্য রয়েছে তা জানার জন্য অনেক R ফাংশন রয়েছে। 
+
+- এই লেকচারে `dataframe` কি, কিভাবে `dataframe` তৈরি করা যায় বা `dataframe` এর তথ্যকে কিভাবে জানা যায় ও তা নিয়ে কাজ করা যায় তার কিছু উদাহরণ দেয়া হয়েছে। 
 
 
 ## Script
