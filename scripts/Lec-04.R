@@ -15,6 +15,7 @@ class(df)
 str(df)
 dim(df)
 
+#print head and tail
 head(df)
 tail(df)
 
