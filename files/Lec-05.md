@@ -15,6 +15,8 @@
 
 - Run `?dplyr` in your console.
 
+- `dplyr` এর ডকুমেন্টেশন পড়ুন ও উদারহনের কোডগুলা রান করানোর চেষ্টা করেন। 
+
 ## Script
 
 [ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-05.R) 
