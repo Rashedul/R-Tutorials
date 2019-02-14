@@ -21,7 +21,7 @@
 
 ৪)  [__লেকচার - ০৪ - Useful functions in R__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-04.md)
 
-৫)  [__লেকচার - ০৫ - R packages__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-04.md)
+৫)  [__লেকচার - ০৫ - R packages__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-05.md)
 
 ## 
 
