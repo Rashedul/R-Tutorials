@@ -7,7 +7,7 @@
 - কিছু syntex ভালভাবে মনে রাখার চেষ্টা করবেন, এতে অনেক সময় বাঁচবে। 
 - লেকচারে কোন নতুন টার্মিনোলজি পেলে সেটা অবশ্যই গুগুল করে নিবেন। 
 - অনুশীলনের কোন বিকল্প নেই, অবশ্যই লেকচার শেষ করার পর অনুশীলনীগুলো করার চেষ্টা করবেন। 
-- কোন প্রশ্ন থাকলে [__YouTube__](https://www.youtube.com/channel/UCm-8CdrvGi2SjLEOUSCztIg?view_as=subscriber) ভিডিওর নিচে কমেন্ট করতে পারেন। কিভাবে প্রশ্ন করবেন, তার [_নমুনা এখানে দেখে নিন_](https://github.com/Rashedul/R-Tutorials/blob/master/files/AskQuestion.md)। 
+- কোন প্রশ্ন/মতামত থাকলে [__YouTube__](https://www.youtube.com/channel/UCm-8CdrvGi2SjLEOUSCztIg?view_as=subscriber) ভিডিওর নিচে কমেন্ট করতে পারেন। কিভাবে প্রশ্ন করবেন, তার [_নমুনা এখানে দেখে নিন_](https://github.com/Rashedul/R-Tutorials/blob/master/files/AskQuestion.md)। 
 
 
 ## লেকচার  সূচি 
