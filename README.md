@@ -23,6 +23,9 @@
 
 ৫)  [__লেকচার - ০৫ - R packages__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-05.md)
 
+৬)  [__লেকচার - ০৬ - Data wrangling and tidy data__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-06.md)
+
+
 ## 
 
 ##

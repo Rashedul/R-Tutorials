@@ -1,4 +1,5 @@
-#cd /Users/rashedulislam/Library/Mobile Documents/com~apple~CloudDocs/RMarkdown_Tutorials/R-Tutorials
+cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/RMarkdown_Tutorials/R-Tutorials
+
 git add -A
 git commit -m "cmt"
 git push origin master
