@@ -10,29 +10,20 @@ library(gapminder)
 head(gapminder)
 
 #extract column by 'select()'
+select(gapminder, country)
 select(gapminder, country, continent)
+select(gapminder, -country)
+select(gapminder, -country, -continent)
 
+#get columns by partial matching of column names
 select(gapminder, starts_with("c"))
 select(gapminder, ends_with("p"))
-select(gapminder, contains("c"))
-
-select(gapminder, -(country:lifeExp))
+select(gapminder, contains("co"))
 
 #extract row by 'filter()'
 temp = filter(gapminder, country != "Afghanistan")
-filter(gapminder, country != "Afghanistan")
 
-#filter Afghanistan and Australia
 temp2 = filter(gapminder, country %in% c("Afghanistan", "Australia"))
 
-#filter countries with 'stan' in their names
-temp3 = filter(gapminder, !grepl("stan", country))
-
-filter(gapminder, year == 1952, gdpPercap >=800)
-
-
-
-
-
-
+temp3 = filter(gapminder, year >= 1952, lifeExp >=40)
 

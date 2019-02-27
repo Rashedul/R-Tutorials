@@ -25,6 +25,8 @@
 
 ৬)  [__লেকচার - ০৬ - Data wrangling and tidy data__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-06.md)
 
+৭)  [__লেকচার -  ০৭ - dplyr - I__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-07.md)
+
 
 ## 
 
