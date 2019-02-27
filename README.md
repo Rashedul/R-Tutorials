@@ -12,6 +12,8 @@
 
 ## লেকচার  সূচি 
 
+### BASIC PROGRAMMING WITH R
+
 ১)  [__লেকচার - ০১ - Download and install R and RStudio__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-01.md)
 
 
@@ -23,9 +25,16 @@
 
 ৫)  [__লেকচার - ০৫ - R packages__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-05.md)
 
+### DATA WRANGLING
+
 ৬)  [__লেকচার - ০৬ - Data wrangling and tidy data__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-06.md)
 
 ৭)  [__লেকচার -  ০৭ - dplyr - I__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-07.md)
+
+### VISUALIZATION
+
+### STATISTICAL ANALYSIS
+
 
 
 ## 
