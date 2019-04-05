@@ -52,7 +52,7 @@
 
 ### STATISTICAL ANALYSIS
 
-১৫)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+১৫)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
 
 ১৫)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
