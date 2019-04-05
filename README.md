@@ -34,7 +34,21 @@
 
 ৮)  [__লেকচার -  ০৮ - dplyr - II__- `pipe()` and `mutate()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
 
+৯)  [__লেকচার -  ০৯ - dplyr - III__- `arrange()`, `group_by()`, `summarize()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
+
+১০)  [__লেকচার -  ১০ - tidyverse__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
+
+
 ### VISUALIZATION
+
+১১)  [__লেকচার -  ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
+
+১২)  [__লেকচার -  ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
+
+১৩)  [__লেকচার -  ১২ - Heatmap__- `phatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
+
+১৪)  [__লেকচার -  ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
 
 ### STATISTICAL ANALYSIS
 
