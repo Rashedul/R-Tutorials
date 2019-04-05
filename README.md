@@ -29,28 +29,34 @@
 
 ৬)  [__লেকচার - ০৬ - Data wrangling and tidy data__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-06.md)
 
-৭)  [__লেকচার -  ০৭ - dplyr - I__- `select()` and `filter()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-07.md)
+৭)  [__লেকচার - ০৭ - dplyr - I__- `select()` and `filter()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-07.md)
 
 
-৮)  [__লেকচার -  ০৮ - dplyr - II__- `pipe()` and `mutate()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
+৮)  [__লেকচার - ০৮ - dplyr - II__- `pipe()` and `mutate()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
 
-৯)  [__লেকচার -  ০৯ - dplyr - III__- `arrange()`, `group_by()`, `summarize()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
+৯)  [__লেকচার - ০৯ - dplyr - III__- `arrange()`, `group_by()`, `summarize()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
 
-১০)  [__লেকচার -  ১০ - tidyverse__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
+১০)  [__লেকচার - ১০ - tidyverse__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
 
 
 ### VISUALIZATION
 
-১১)  [__লেকচার -  ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
+১১)  [__লেকচার - ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
 
-১২)  [__লেকচার -  ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
+১২)  [__লেকচার - ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
 
-১৩)  [__লেকচার -  ১২ - Heatmap__- `phatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
+১৩)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
-১৪)  [__লেকচার -  ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৪)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 
 ### STATISTICAL ANALYSIS
+
+১৫)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+
+১৬)  [__লেকচার - ১৬ - t-test__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
+
+১৭)  [__লেকচার -  ১৭ - ANOVA__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
 
 
 
