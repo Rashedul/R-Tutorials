@@ -31,6 +31,9 @@
 
 ৭)  [__লেকচার -  ০৭ - dplyr - I__- `select()` and `filter()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-07.md)
 
+
+৮)  [__লেকচার -  ০৮ - dplyr - II__- `pipe()` and `mutate()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
+
 ### VISUALIZATION
 
 ### STATISTICAL ANALYSIS
