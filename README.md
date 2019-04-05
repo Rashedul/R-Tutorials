@@ -34,9 +34,9 @@
 ৭)  [__লেকচার - ০৭ - dplyr - I__- `select()` and `filter()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-07.md)
 
 
-৮)  [__লেকচার - ০৮ - dplyr - II__- `pipe()` and `mutate()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
+৮)  [__লেকচার - ০৮ - dplyr - II__- `pipe()`, `mutate()` and `arrange()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
 
-৯)  [__লেকচার - ০৯ - dplyr - III__- `arrange()`, `group_by()`, `summarize()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
+৯)  [__লেকচার - ০৯ - dplyr - III__-  `summarize()` and `group_by()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
 
 
 ### VISUALIZATION
