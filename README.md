@@ -1,7 +1,9 @@
 ## আর প্রোগ্রামিং টিউটোরিয়াল (R programming tutorials)
 
-আর প্রোগ্রামিং (R programming) শিখতে চাইলে শুরু করে দিন কোডিং এবং তার জন্য এই বাংলা টিউটোরিয়ালগুলো দেখে নিতে পারেন। কিছু টিপসঃ 
+আর প্রোগ্রামিং (R programming) শিখতে চাইলে শুরু করে দিন কোডিং এবং তার জন্য এই বাংলা টিউটোরিয়ালগুলো দেখে নিতে পারেন। কিছু পরামর্শ: 
 
+- এই লেকচার অনুসরণ করার জন্য প্রোগ্রামিং এর পূর্ব অভিজ্ঞতার প্রয়োজন নেই। 
+- এই লেকচারগুলো সুনির্দিস্ট ক্রমে সাজানো আছে ও পরের একটি লেকচার তার আগের লেকচারের উপর নির্ভরশীল। তাই ক্রমানুসারে ভিডিওগুলো দেখার অনুরোধ রইল। 
 - লেকচারের সবগুলো কোড রান করাবেন, সাথে যা মন চায় চেষ্টা করতে পারেন কোড এদিক সেদিক পরিবর্তন করে। 
 - কোন এরর দিলে প্রথমেই এরর মেসেজটা ভাল করে পড়বেন ও বোঝার চেষ্টা করবেন। ব্যর্থ হলে গুগুলে এরর মেসেজটা লিখে সার্চ দিবেন। 
 - কিছু syntex ভালভাবে মনে রাখার চেষ্টা করবেন, এতে অনেক সময় বাঁচবে। 
@@ -36,24 +38,26 @@
 
 ৯)  [__লেকচার - ০৯ - dplyr - III__- `arrange()`, `group_by()`, `summarize()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
 
-১০)  [__লেকচার - ১০ - tidyverse__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
-
 
 ### VISUALIZATION
 
-১১)  [__লেকচার - ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
+১০)  [__লেকচার - ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
 
-১২)  [__লেকচার - ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
+১১)  [__লেকচার - ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
 
-১৩)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
+১২)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
-১৪)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৩)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৪)  [__লেকচার - ১০ - tidyverse__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
 
 
 ### STATISTICAL ANALYSIS
 
+
 ১৫)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
+১৫)  [__লেকচার - ১৫ - Statistical distributions__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
 ১৫)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
