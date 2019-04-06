@@ -73,7 +73,9 @@
 
 ### Web resources
 
-- 
+- [UBC STST545 course materials](http://stat545.com/Classroom/)
+
+- [Statistical tools for high-throughput data analysis](http://www.sthda.com/english/)
 
 ### Key board shortcuts 
 
