@@ -73,9 +73,23 @@
 
 ### Web resources
 
-- [UBC STST545 course materials](http://stat545.com/Classroom/)
+- [UBC STST545/7 course materials](http://stat545.com/Classroom/)
 
 - [Statistical tools for high-throughput data analysis](http://www.sthda.com/english/)
+
+- [R for Data Science](https://r4ds.had.co.nz/)
+
+### Cheatsheets
+
+- [Base R](https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf)
+
+- [Rstudio IDE](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)
+
+- [ggplot2](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+
+- [Data Wrangling with dplyr and tidyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+
+- 
 
 ### Key board shortcuts 
 
