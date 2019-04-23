@@ -37,6 +37,9 @@
 ৮)  [__লেকচার - ০৮ - dplyr - II__- `pipe()`, `mutate()` and `arrange()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
 
 ৯)  [__লেকচার - ০৯ - dplyr - III__-  `summarize()` and `group_by()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
+READING AND WRITING DATA
+
+১০)  [__লেকচার - ১১ - READING AND WRITING DATA__- `read.table()`, `write.table()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
 
 
 ### VISUALIZATION
@@ -49,7 +52,7 @@
 
 ১৩)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৪)  [__লেকচার - ১০ - tidyverse__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
+১৪)  [__লেকচার - ১০ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
 ### STATISTICAL ANALYSIS
