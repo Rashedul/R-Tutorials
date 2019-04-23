@@ -52,7 +52,7 @@ READING AND WRITING DATA
 
 ১৩)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৪)  [__লেকচার - ১০ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+১৪)  [__লেকচার - ১০ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.Rmd)
 
 
 ### STATISTICAL ANALYSIS
