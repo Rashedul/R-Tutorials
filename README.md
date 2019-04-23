@@ -38,7 +38,7 @@
 
 ৯)  [__লেকচার - ০৯ - dplyr - III__-  `summarize()` and `group_by()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
 
-১০)  [__লেকচার - ১১ - Reading & writing DATA__- `read.table()`, `write.table()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
+১০)  [__লেকচার - ১১ - Reading & writing data__- `read.table()`, `write.table()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
 
 
 ### VISUALIZATION
@@ -57,7 +57,7 @@
 ### STATISTICAL ANALYSIS
 
 
-১৫)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+১৫)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
 ১৫)  [__লেকচার - ১৫ - Statistical distributions__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
