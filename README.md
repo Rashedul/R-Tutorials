@@ -37,9 +37,8 @@
 ৮)  [__লেকচার - ০৮ - dplyr - II__- `pipe()`, `mutate()` and `arrange()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-08.md)
 
 ৯)  [__লেকচার - ০৯ - dplyr - III__-  `summarize()` and `group_by()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
-READING AND WRITING DATA
 
-১০)  [__লেকচার - ১১ - READING AND WRITING DATA__- `read.table()`, `write.table()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
+১০)  [__লেকচার - ১১ - Reading & writing DATA__- `read.table()`, `write.table()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
 
 
 ### VISUALIZATION
