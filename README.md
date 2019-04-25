@@ -43,35 +43,44 @@
 
 ### VISUALIZATION
 
-১০)  [__লেকচার - ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
+১১)  [__লেকচার - ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
 
-১১)  [__লেকচার - ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
+১২)  [__লেকচার - ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
 
-১২)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
+১৩)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
-১৩)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৪)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৪)  [__লেকচার - ১০ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+১৫)  [__লেকচার - ১০ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+
+
+### MORE IN R 
+
+১৬)  [__লেকচার - ১০ - Loop__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+
+১৭)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
 ### STATISTICAL ANALYSIS
 
+১৮)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-১৫)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+১৯)  [__লেকচার - ১৫ - Statistical distributions__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-১৫)  [__লেকচার - ১৫ - Statistical distributions__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২০)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-১৫)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২১)  [__লেকচার - ১৬ - t-test__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
 
-১৬)  [__লেকচার - ১৬ - t-test__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
+২২)  [__লেকচার -  ১৭ - ANOVA__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
 
-১৭)  [__লেকচার -  ১৭ - ANOVA__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
 
 ### USEFUL RESOURCES
+
 
 ### Books
 
 - 
+
 
 ### Web resources
 
@@ -80,6 +89,7 @@
 - [Statistical tools for high-throughput data analysis](http://www.sthda.com/english/)
 
 - [R for Data Science](https://r4ds.had.co.nz/)
+
 
 ### Cheatsheets
 
@@ -92,6 +102,7 @@
 - [Data Wrangling with dplyr and tidyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
 - [R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
 
 ### Key board shortcuts 
 
