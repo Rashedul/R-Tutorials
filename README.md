@@ -38,7 +38,7 @@
 
 ৯)  [__লেকচার - ০৯ - dplyr - III__-  `summarize()` and `group_by()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-09.md)
 
-১০)  [__লেকচার - ১০ - Reading & writing data__- `read.table()`, `write.table()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
+১০)  [__লেকচার - ১০ - Reading & writing data__- `read.table()`, `write.table()`, `read.xls()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-10.md)
 
 
 ### VISUALIZATION
