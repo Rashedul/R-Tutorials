@@ -49,11 +49,11 @@
 
 ১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৪)  [__লেকচার - ১৩ - ggplot - II__- `plotting`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৪)  [__লেকচার - ১৪ - ggplot - II__- `plotting`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৫)  [__লেকচার - ১৩ - ggplot -III__- `formating`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৫)  [__লেকচার - ১৫ - ggplot -III__- `formating`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৫)  [__লেকচার - ১০ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+১৫)  [__লেকচার - ১৫ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
 ### MORE IN R 
