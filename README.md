@@ -45,11 +45,13 @@
 
 ১১)  [__লেকচার - ১১ - Basic R plotting - I__- `scatter plot`, `histogram`, `line plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-11.md)
 
-১২)  [__লেকচার - ১২ - Basic R plotting - II__- `Box plot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
+১২)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
-১৩)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
+১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৪)  [__লেকচার - ১৩ - ggplot__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৪)  [__লেকচার - ১৩ - ggplot - II__- `plotting`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৩ - ggplot -III__- `formating`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 ১৫)  [__লেকচার - ১০ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
