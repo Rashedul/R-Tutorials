@@ -6,7 +6,7 @@
 ## অনুশীলনীঃ 
 
 - Transform the `speed` column of `cars` data into log. Then make a scatter plot and a line plot. Which one looks better?
-- 
+- Make at least 5 different plots using the `type` option of `plot()` function.
 
 ## Script
 
