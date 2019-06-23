@@ -105,6 +105,8 @@
 
 - [R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
+- [Rstudio cheatsheet collection](https://www.rstudio.com/resources/cheatsheets/)
+
 
 ### Key board shortcuts 
 
