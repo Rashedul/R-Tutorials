@@ -49,9 +49,23 @@
 
 ১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
-১৪)  [__লেকচার - ১৪ - ggplot - II__- `plotting`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৪)  [__লেকচার - ১৪ - ggplot - II__- `point`, 'line'](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৫)  [__লেকচার - ১৫ - ggplot -III__- `formating`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৫)  [__লেকচার - ১৫ - ggplot -III__- `histogram`, 'barplot'](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৫ - ggplot -III__- `boxplot`, 'violin'](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৫ - ggplot -III__- `tile`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৫ - ggplot -III__- `jitter`, 'errorbar'](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৫ - ggplot -III__- `density`, 'smooth'](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৫ - ggplot -III__-  controling `shape` and 'size'](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৫ - ggplot -III__-  faceting](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+১৫)  [__লেকচার - ১৫ - ggplot -III__-  changing theme](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 ১৫)  [__লেকচার - ১৫ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
@@ -61,6 +75,8 @@
 ১৬)  [__লেকচার - ১০ - Loop__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 ১৭)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+
+১৭) [__লেকচার - ১০ - Command line__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
 ### STATISTICAL ANALYSIS
