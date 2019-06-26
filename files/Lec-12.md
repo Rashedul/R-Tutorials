@@ -5,6 +5,13 @@
 
 ## অনুশীলনীঃ 
 
+- Make heatmap with the example data provided in `pheatmap` help section.
+
+- Write title on the heatmap.
+
+- Change color.
+
+- Add annotations.
 
 
 ## Script
