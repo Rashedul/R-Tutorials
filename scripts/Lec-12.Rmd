@@ -26,6 +26,14 @@ df = scale(mtcars)
 pheatmap(df)
 
 #change arguments
+
+pheatmap(df, 
+         border_color = "red")
+#
+pheatmap(df, 
+         border_color = "red",
+         cluster_rows = F)
+#
 pheatmap(df, 
          border_color = "red",
          cluster_rows = T,

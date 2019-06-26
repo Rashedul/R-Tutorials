@@ -48,6 +48,24 @@ pheatmap(df)
 
 ```r
 #change arguments
+
+pheatmap(df, 
+         border_color = "red")
+```
+
+![](Lec-12_files/figure-html/unnamed-chunk-1-2.png)<!-- -->
+
+```r
+#
+pheatmap(df, 
+         border_color = "red",
+         cluster_rows = F)
+```
+
+![](Lec-12_files/figure-html/unnamed-chunk-1-3.png)<!-- -->
+
+```r
+#
 pheatmap(df, 
          border_color = "red",
          cluster_rows = T,
@@ -57,21 +75,21 @@ pheatmap(df,
          display_numbers = T)
 ```
 
-![](Lec-12_files/figure-html/unnamed-chunk-1-2.png)<!-- -->
+![](Lec-12_files/figure-html/unnamed-chunk-1-4.png)<!-- -->
 
 ```r
 #without scaling
 pheatmap(mtcars)
 ```
 
-![](Lec-12_files/figure-html/unnamed-chunk-1-3.png)<!-- -->
+![](Lec-12_files/figure-html/unnamed-chunk-1-5.png)<!-- -->
 
 ```r
 #with
 pheatmap(mtcars, scale = "column")
 ```
 
-![](Lec-12_files/figure-html/unnamed-chunk-1-4.png)<!-- -->
+![](Lec-12_files/figure-html/unnamed-chunk-1-6.png)<!-- -->
 
 ```r
 #end
