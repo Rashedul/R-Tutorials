@@ -14,13 +14,11 @@
 - Add annotations.
 
 
-## Script
+## Script: ক্লাসের script পাওয়া যাবে এখানে
 
-[ক্লাসের script পাওয়া যাবে এখানে]
+- [Markdown with code and plot](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-12.md) 
 
-- Markdown with code and plot: (https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-12.md) 
-
-- Rscript: (https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-12.R) 
+- [Rscript](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-12.R) 
 
 
 ## 
