@@ -47,7 +47,7 @@
 
 ১২)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
 
-১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
 ১৪)  [__লেকচার - ১৪ - ggplot - II__- `plotting`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 

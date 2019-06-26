@@ -1,3 +1,17 @@
+---
+title: "pheatmap"
+author: "Rashedul"
+date: "6/26/2019"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
 #install pheatmap
 #install.packages("pheatmap")
 library(pheatmap)
@@ -27,5 +41,5 @@ pheatmap(mtcars)
 pheatmap(mtcars, scale = "column")
 
 #end
-
+```
 
