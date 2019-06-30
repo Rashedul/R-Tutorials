@@ -1,16 +1,8 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/igV72pP_3Yo "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/PwJ43CJy8M4 "Everything Is AWESOME")
 
-## Write and read a file/object
+##ggplot
 
-
-## অনুশীলনীঃ 
-
-- Read a file that has missing values. If you get an error, fix it.
-- Try `dplyr` functions to write and read a file/object. See `dplyr` documentations.
-
-## Script
-
-[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-10.R) 
+[Jenn's slides on ggplot2](https://speakerdeck.com/jennybc/ggplot2-tutorial) 
 
 
 ## 
