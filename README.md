@@ -99,7 +99,8 @@
 
 ### Books
 
-- 
+- [Visualization Analysis and Design, Tamara Munzner](https://www.cs.ubc.ca/~tmm/vadbook/)
+ 
 
 
 ### Web resources
