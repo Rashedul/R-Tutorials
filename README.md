@@ -51,27 +51,23 @@
 
 ১৪)  [__লেকচার - ১৪ - ggplot - II__- `geom_point()`, `geom_line()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-#### coming next...
-
 ১৫)  [__লেকচার - ১৫ - ggplot -III__- `tidyverse`, `geom_bar()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+#### coming next...
 
 ১৫)  [__লেকচার - ১৫ - ggplot -III__- `cheatsheet`, `geom_histogram()`, `geom_density()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 ১৬)  [__লেকচার - ১৬ - ggplot -IV__- `geom_boxplot()`, `geom_violin()`, `geom_jitter()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৭) # [__লেকচার - ১৭ - ggplot -V__- `tile`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৭)  [__লেকচার - ১৭ - ggplot -V__- `gather`, `factors`, `levels`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৮)  [__লেকচার - ১৮ - ggplot -VI__- `errorbar`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
-
-১৯) # [__লেকচার - ১৯ - ggplot -VII__- `geom_smooth()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৭)  [__লেকচার - ১৭ - ggplot -V__- Color and fill scales](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md) #talk about R colors and how to use them
 
 ২০)  [__লেকচার - ২০ - ggplot -VIII__-  controling `shape` and `size`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-২১)  [__লেকচার - ২১ - ggplot -IX__-  faceting](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+২১)  [__লেকচার - ২১ - ggplot -IX__-  `faceting` and `coordinate_flip()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-২২)  [__লেকচার - ২২ - ggplot -X__-  changing theme](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
-
-২২)  [__লেকচার - ২২ - ggplot -X__-  tidyverse](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+২২)  [__লেকচার - ২২ - ggplot -X__-  `changing theme`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 ২৩)  [__লেকচার - ১৫ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
