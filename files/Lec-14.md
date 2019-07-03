@@ -5,12 +5,11 @@
 
 ## অনুশীলনীঃ 
 
-- Read a file that has missing values. If you get an error, fix it.
-- Try `dplyr` functions to write and read a file/object. See `dplyr` documentations.
+- practice line and point plots changing parameters
 
 ## Script
 
-###ক্লাসের script পাওয়া যাবে এখানে
+ক্লাসের script পাওয়া যাবে এখানে
 
 [Code and plots](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-14.md) 
 
