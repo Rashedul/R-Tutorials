@@ -1,0 +1,82 @@
+---
+title: "point and line plots"
+author: "Rashedul"
+date: "7/2/2019"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#install `ggplot2`
+
+```{r}
+#install.packages("ggplot2")
+library(ggplot2)
+```
+
+#reproduce example of previous class for point plot
+
+```{r}
+#
+head(mpg)
+
+ggplot(mpg, aes(displ, hwy)) +
+    geom_point()
+
+#add color
+ggplot(mpg, aes(displ, hwy, color = class)) +
+    geom_point()
+
+#change variables
+ggplot(mpg, aes(displ, cty, color = trans)) +
+    geom_point()
+#
+
+```
+
+#make line plot and know layered graphics
+
+```{r}
+#create data frame
+df = data.frame(col1 = 1:3, col2 = c(1,4,2))
+
+#line plot 
+ggplot(df, aes(col2, col1)) +
+    geom_line()
+
+#layer points
+ggplot(df, aes(col2, col1)) +
+    geom_line() +
+    geom_point()
+
+#add parameters
+ggplot(df, aes(col2, col1)) +
+    geom_point() +
+    geom_line(size = 2)
+
+#
+ggplot(df, aes(col2, col1)) +
+    geom_point() +
+    geom_line(size = 2, color = "red")
+
+#
+ggplot(df, aes(col2, col1)) +
+    geom_point(size = 5) +
+    geom_line(size = 2, color = "red")
+
+#
+ggplot(df, aes(col2, col1)) +
+    geom_point(size = 5, shape = 21) +
+    geom_line(size = 2, color = "red")
+
+#
+ggplot(df, aes(col2, col1)) +
+    geom_point(size = 5, shape = 21, stroke = 3) +
+    geom_line(size = 2, color = "red")
+
+```
+

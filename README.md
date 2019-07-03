@@ -49,9 +49,10 @@
 
 ১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
-#### coming next...
 
 ১৪)  [__লেকচার - ১৪ - ggplot - II__- `point`, `line`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+#### coming next...
 
 ১৫)  [__লেকচার - ১৫ - ggplot -III__- `histogram`, `barplot`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 

@@ -2,7 +2,7 @@
 
 ##ggplot
 
-[Jenn's slides on ggplot2](https://speakerdeck.com/jennybc/ggplot2-tutorial) 
+[Jenny's slides on ggplot2](https://speakerdeck.com/jennybc/ggplot2-tutorial) 
 
 
 ## 
