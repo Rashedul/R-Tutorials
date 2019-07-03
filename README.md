@@ -116,7 +116,7 @@
 
 - [Base R](https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf)
 
-- [Rstudio IDE](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)
+- [Rstudio IDE](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf) Key board shortcuts are included with description of Rstudio IDE.
 
 - [ggplot2](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 
@@ -125,9 +125,6 @@
 - [R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
 - [Rstudio cheatsheet collection](https://www.rstudio.com/resources/cheatsheets/)
-
-
-### Key board shortcuts 
 
 
 ## 
