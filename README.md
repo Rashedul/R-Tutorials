@@ -49,27 +49,25 @@
 
 ১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
-১৪)  [__লেকচার - ১৪ - ggplot - II__- `geom_point()`, `geom_line()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৪)  [__লেকচার - ১৪ - ggplot - II__- `geom_point()`, `geom_line()`, `layered graphics`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 ১৫)  [__লেকচার - ১৫ - ggplot -III__- `tidyverse`, `geom_bar()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 #### coming next...
 
-১৫)  [__লেকচার - ১৫ - ggplot -III__- `cheatsheet`, `geom_histogram()`, `geom_density()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
-
 ১৬)  [__লেকচার - ১৬ - ggplot -IV__- `geom_boxplot()`, `geom_violin()`, `geom_jitter()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৭)  [__লেকচার - ১৭ - ggplot -V__- `gather`, `factors`, `levels`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৭)  [__লেকচার - ১৭ - ggplot -V__- `cheatsheet`, `gather`, `factors`, `levels`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৭)  [__লেকচার - ১৭ - ggplot -V__- Color and fill scales](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md) #talk about R colors and how to use them
+১৮)  [__লেকচার - ১৭ - ggplot -V__- Color and fill scales](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md) #talk about R colors and how to use them
 
-২০)  [__লেকচার - ২০ - ggplot -VIII__-  controling `shape` and `size`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৯)  [__লেকচার - ২০ - ggplot -VIII__-  controling `shape` and `size`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md) Not sure to include
 
-২১)  [__লেকচার - ২১ - ggplot -IX__-  `faceting` and `coordinate_flip()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+২০)  [__লেকচার - ২১ - ggplot -IX__-  `faceting` and `coordinate_flip()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-২২)  [__লেকচার - ২২ - ggplot -X__-  `changing theme`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+২১)  [__লেকচার - ২২ - ggplot -X__-  `changing theme`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-২৩)  [__লেকচার - ১৫ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+২২)  [__লেকচার - ১৫ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
 ### MORE IN R 
