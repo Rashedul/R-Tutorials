@@ -1,7 +1,8 @@
-cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/RMarkdown_Tutorials/R-Tutorials
+#cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/RMarkdown_Tutorials/R-Tutorials
+cd /Users/rashedulislam/GoogleDriveCLL/Ig-ID2/
 
 git add -A
-git commit -m "cmt"
+git commit -m "minor"
 git push origin master
 
 

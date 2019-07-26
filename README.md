@@ -59,13 +59,15 @@
 
 ১৭)  [__লেকচার - ১৭ - ggplot -V__- `cheatsheet`, `gather`, `factors`, `levels`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৮)  [__লেকচার - ১৭ - ggplot -V__- Color and fill scales](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md) #talk about R colors and how to use them
+১৮)  [__লেকচার - ১৭ - ggplot -V__- Color and fill scales, `forcats()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md) #talk about R colors and how to use them
 
 ১৯)  [__লেকচার - ২০ - ggplot -VIII__-  controling `shape` and `size`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md) Not sure to include
 
 ২০)  [__লেকচার - ২১ - ggplot -IX__-  `faceting` and `coordinate_flip()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 ২১)  [__লেকচার - ২২ - ggplot -X__-  `changing theme`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+২১)  [__লেকচার - ২২ - String processing__-  `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 ২২)  [__লেকচার - ১৫ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
