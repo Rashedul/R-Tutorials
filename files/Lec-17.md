@@ -1,16 +1,17 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/igV72pP_3Yo "Everything Is AWESOME")
 
-## Write and read a file/object
+## Use of cheatsheet and change colors
 
 
 ## অনুশীলনীঃ 
 
-- Read a file that has missing values. If you get an error, fix it.
-- Try `dplyr` functions to write and read a file/object. See `dplyr` documentations.
+- Make new plots from cheatsheet 
+
+- chnage colors on your plots
 
 ## Script
 
-[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-10.R) 
+[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-17.R) 
 
 
 ## 

@@ -1,13 +1,13 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/igV72pP_3Yo "Everything Is AWESOME")
 
-## 
+## Visualizing data distribution
 
 
 ## অনুশীলনীঃ 
 
-- look at those functions - `gather()` and `spread()` 
+- combine boxplot and jitter
 
-- Explore the coloring options in `ggplot`
+- make a smaller violin plot inside boxplot
 
 ## Script
 

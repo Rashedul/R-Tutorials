@@ -57,9 +57,9 @@
 
 ১৭)  [__লেকচার - ১৭ - ggplot -V__-  `faceting`, `coordinate_flip()` and `theme()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
 
-১৮)  [__লেকচার - ১৭ - ggplot -VI__-  `cheatsheet`, `colors`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
+১৮)  [__লেকচার - ১৮ - ggplot -VI__-  `cheatsheet`, `colors`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
 
-১৮)  [__লেকচার - ১৮ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+১৯)  [__লেকচার - ১৯ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
 #### coming next...
