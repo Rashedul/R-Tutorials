@@ -51,7 +51,7 @@
 
 ১৪)  [__লেকচার - ১৪ - ggplot - II__- `geom_point()`, `geom_line()`, `layered graphics`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
-১৫)  [__লেকচার - ১৫ - ggplot -III__- `tidyverse`, `geom_bar()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+১৫)  [__লেকচার - ১৫ - ggplot -III__- `tidyverse`, `geom_bar()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
 #### coming next...
 
