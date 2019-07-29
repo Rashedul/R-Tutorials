@@ -1,18 +1,21 @@
+library(tidyverse)
 library(gapminder)
 
-head(gapminder)
+#facet
+ggplot(gapminder, aes(lifeExp, gdpPercap)) +
+    geom_point() + 
+    facet_grid(continent~.)
 
-write.table(gapminder, "~/Downloads/my_gapminder.txt", quote = FALSE, row.names = F, sep = "|")
+#facet_wrap()
 
-#
-x = read.table("~/Downloads/my_gapminder.txt", sep = "|", header = T)
-colnames(x)
+#coordinate flip
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_boxplot() +
+    coord_flip()
 
-#
-#install.packages("gdata")
-library(gdata)
+#theme
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_boxplot() +
+    theme_bw()
 
-xl = read.xls("~/Downloads/example-file.xlsx")
 
-#
-#

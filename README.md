@@ -57,6 +57,8 @@
 
 ১৭)  [__লেকচার - ১৭ - ggplot -V__-  `faceting`, `coordinate_flip()` and `theme()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
 
+১৮)  [__লেকচার - ১৭ - ggplot -VI__-  `cheatsheet`, `colors`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
+
 ১৮)  [__লেকচার - ১৮ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
@@ -65,33 +67,32 @@
 
 ### MORE IN R 
 
-১৬)  [__লেকচার - ১০ - Loop__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+১৯)  [__লেকচার - ১০ - Loop__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
-১৭)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+২০)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 ২১)  [__লেকচার - ২২ - String processing__-  `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
 
 
 ### STATISTICAL ANALYSIS
 
-১৮)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২২)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-১৯)  [__লেকচার - ১৫ - Statistical distributions__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২৩)  [__লেকচার - ১৫ - Statistical distributions__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-২০)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২৪)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-২১)  [__লেকচার - ১৬ - t-test__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
-
-২২)  [__লেকচার -  ১৭ - ANOVA__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
+২৫)  [__লেকচার - ১৬ - statistical tests__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
 
 
 ### USEFUL RESOURCES
 
 
-### Books
+### Free online Books
 
+- [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
+- [Rstudio Books](https://www.rstudio.com/resources/training/books/)
 - [Visualization Analysis and Design, Tamara Munzner](https://www.cs.ubc.ca/~tmm/vadbook/)
- 
 
 
 ### Web resources
