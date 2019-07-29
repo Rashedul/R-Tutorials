@@ -1,18 +1,30 @@
+install.packages("tidyverse")
+library(tidyverse)
 library(gapminder)
 
 head(gapminder)
 
-write.table(gapminder, "~/Downloads/my_gapminder.txt", quote = FALSE, row.names = F, sep = "|")
+#bar
+ggplot(gapminder, aes(continent)) +
+    geom_bar()
 
-#
-x = read.table("~/Downloads/my_gapminder.txt", sep = "|", header = T)
-colnames(x)
+#use of pipe in ggplot
+gapminder %>%
+    filter(year == 1952) %>%
+    ggplot(aes(continent)) +
+    geom_bar()
 
+#plot population
+head(gapminder)
+gapminder %>%
+    filter(year == 1952) %>% 
+    ggplot(aes(continent, pop)) +
+    geom_bar(stat = "identity")
 #
-#install.packages("gdata")
-library(gdata)
+gapminder %>%
+    filter(year == 1952) %>% 
+    ggplot(aes(continent, pop)) +
+    geom_col()
 
-xl = read.xls("~/Downloads/example-file.xlsx")
+#stacked bar
 
-#
-#

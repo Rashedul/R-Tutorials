@@ -1,5 +1,5 @@
-#cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/RMarkdown_Tutorials/R-Tutorials
-cd /Users/rashedulislam/GoogleDriveCLL/Ig-ID2/
+cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/RMarkdown_Tutorials/R-Tutorials
+#cd /Users/rashedulislam/GoogleDriveCLL/Ig-ID2/
 
 git add -A
 git commit -m "minor"
