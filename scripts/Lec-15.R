@@ -27,4 +27,9 @@ gapminder %>%
     geom_col()
 
 #stacked bar
+gapminder %>%
+    filter(year >= 1952 & year <= 1970) %>%
+    ggplot(aes(year, pop)) +
+    geom_bar(stat = "identity", aes(fill = continent))
+
 

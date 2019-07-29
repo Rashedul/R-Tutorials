@@ -1,16 +1,17 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/igV72pP_3Yo "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/BheQ3IR1fKw "Everything Is AWESOME")
 
-## Write and read a file/object
+## Histogram/Barplot using `ggplot`
 
 
 ## অনুশীলনীঃ 
 
-- Read a file that has missing values. If you get an error, fix it.
-- Try `dplyr` functions to write and read a file/object. See `dplyr` documentations.
+- Make histogram using country column
+
+- Try `dplyr`  and `ggplot` functions to plot bar plots using `cars` data.
 
 ## Script
 
-[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-10.R) 
+[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-15.R) 
 
 
 ## 
