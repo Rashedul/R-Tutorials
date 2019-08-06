@@ -57,7 +57,7 @@
 
 ১৭)  [__লেকচার - ১৭ - ggplot -V__-  `faceting`, `coordinate_flip()` and `theme()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
 
-১৮)  [__লেকচার - ১৮ - ggplot -VI__-  `cheatsheet`, `colors`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-17.md)
+১৮)  [__লেকচার - ১৮ - ggplot -VI__-  `cheatsheet`, `colors`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-18.md)
 
 ১৯)  [__লেকচার - ১৯ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
@@ -67,7 +67,7 @@
 
 ### MORE IN R 
 
-১৯)  [__লেকচার - ১০ - Loop__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+১৯)  [__লেকচার - ১০ - Conditions and Loop__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 ২০)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
@@ -78,11 +78,13 @@
 
 ২২)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-২৩)  [__লেকচার - ১৫ - Statistical distributions__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২৩)  [__লেকচার - ১৫ - Statistical distributions__ - `kurtosis()` and `skewness`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-২৪)  [__লেকচার - ১৫ - Regression and Correlation__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২৪)  [__লেকচার - ১৫ - Regression and Correlation_ - `pearson` and `spearman`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-২৫)  [__লেকচার - ১৬ - statistical tests__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
+২৫)  [__লেকচার - ১৬ - statistical tests___ - `t.test()` and `ANOVA`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
+
+২৬)  [__লেকচার - ১৬ - statistical tests___ - `p-value` and `adjusted p-value`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
 
 
 ### USEFUL RESOURCES

@@ -7,7 +7,7 @@
 
 - Make new plots from cheatsheet 
 
-- chnage colors on your plots
+- change colors on your plots
 
 ## Script
 
