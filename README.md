@@ -62,9 +62,6 @@
 ১৯)  [__লেকচার - ১৯ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 
-#### coming next...
-
-
 ### MORE IN R 
 
 ২০)  [__লেকচার - ২০ - Conditional statement__- `if/else`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-20.md)
@@ -74,6 +71,9 @@
 ২০)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 ২১)  [__লেকচার - ২২ - String processing__-  `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+
+
+#### coming next...
 
 
 ### STATISTICAL ANALYSIS
