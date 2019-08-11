@@ -67,7 +67,9 @@
 
 ### MORE IN R 
 
-১৯)  [__লেকচার - ১০ - Conditions and Loop__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+২০)  [__লেকচার - ২০ - Conditional statement__- `if/else`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-20.md)
+
+১৯)  [__লেকচার - ১০ - Looping__- `for loop`](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
 ২০)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 
@@ -80,7 +82,7 @@
 
 ২৩)  [__লেকচার - ১৫ - Statistical distributions__ - `kurtosis()` and `skewness`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
-২৪)  [__লেকচার - ১৫ - Regression and Correlation_ - `pearson` and `spearman`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২৪)  [__লেকচার - ১৫ - Regression and Correlation__ - `pearson` and `spearman`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
 
 ২৫)  [__লেকচার - ১৬ - statistical tests___ - `t.test()` and `ANOVA`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
 

@@ -1,18 +1,32 @@
-library(gapminder)
+#if statement
+x = -5
 
-head(gapminder)
+if(x > 0) {
+    print("Positive Number")
+}
 
-write.table(gapminder, "~/Downloads/my_gapminder.txt", quote = FALSE, row.names = F, sep = "|")
+#else statement
+x = 5
 
-#
-x = read.table("~/Downloads/my_gapminder.txt", sep = "|", header = T)
-colnames(x)
+if(x > 0) {
+    print("Positive Number")
+} else {
+    print("Negative Number")
+}
 
-#
-#install.packages("gdata")
-library(gdata)
+# add else if
+#else statement
+x = 100
 
-xl = read.xls("~/Downloads/example-file.xlsx")
+if(x > 0) {
+    print("Positive Number")
+} else if (x < 0) {
+    print("Negative Number")
+} else {
+    print("Its Zero")
+}
 
-#
-#
+
+
+
+
