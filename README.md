@@ -10,6 +10,7 @@
 - লেকচারে কোন নতুন টার্মিনোলজি পেলে সেটা অবশ্যই গুগুল করে নিবেন। 
 - অনুশীলনের কোন বিকল্প নেই, অবশ্যই লেকচার শেষ করার পর অনুশীলনীগুলো করার চেষ্টা করবেন। 
 - কোন প্রশ্ন/মতামত থাকলে [__YouTube__](https://www.youtube.com/channel/UCm-8CdrvGi2SjLEOUSCztIg?view_as=subscriber) ভিডিওর নিচে কমেন্ট করতে পারেন। কিভাবে প্রশ্ন/মতামত জানাবেন, তার [_নমুনা এখানে দেখে নিন_](https://github.com/Rashedul/R-Tutorials/blob/master/files/AskQuestion.md)। 
+- Windows ব্যবহারকারীরা অনেকসময় এরর পেতে পারেন সঠিক write privileges না থাকার কারণে। তাই অবশ্যই administrator হিসেবে RStudio রান করাবেন। এটা করতে, Click on Start -> RStudio ( right click) -> Run as administrator.
 
 
 ## লেকচার  সূচি ([__YouTube__](https://www.youtube.com/watch?v=lafxMD71tDo&list=PLwFiXZvdEO5IV9crcJBsJWHETYQpU68QM) live coding embeded)
