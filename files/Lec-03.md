@@ -1,4 +1,4 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=bdr39VWjk0M&feature=youtu.be "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/bdr39VWjk0M "Everything Is AWESOME")
 
 ## R প্রোগ্রামিং এর ডেটা স্ট্রাকচার ও উদাহরণ
 

@@ -19,7 +19,7 @@
 
 - একটি `dataframe` তৈরি করেন যেখানে ৫ টি কলাম ও ৫ টি রো রয়েছে সেখানে ইচ্ছামত সংখ্যা বসিয়ে নিন। `dataframe` এর নাম দিন `my_dataframe`
 
-- `my_dataframe` এর উপর `str()`, `class()`, `dim()`, `colnames()` ব্যবহার করেন।
+- `my_dataframe` এর উপর `str()`, `class()`, `dim()`, `colnames()` ফাংশন ব্যবহার করেন।
 
 ## Script
 
