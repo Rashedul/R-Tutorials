@@ -1,10 +1,13 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=UDqd7588cpo&t=6s "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/UDqd7588cpo "Everything Is AWESOME")
 
-## dplyr - II
+## dplyr - II - পাইপ ও নতুন কলাম তৈরি করা। 
 
 
 ## অনুশীলনীঃ 
 
+- `gapminder` ডেটার pop কে log() ত্রান্সফর্ম করেন এবং নতুন একটি কলাম তৈরি করেন।
+
+-  `gapminder` ডেটার pop*year দিয়ে নতুন একটি কলাম তৈরি করে arrange করেন। 
 
 
 ## Script
