@@ -12,7 +12,7 @@
 
 ক্লাসের script পাওয়া যাবে এখানে
 
-[Code and plots](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-14.md) 
+[Markdown with code and plot](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-14.md) 
 
 [Rscript](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-14.R) 
 

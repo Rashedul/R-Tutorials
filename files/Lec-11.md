@@ -1,6 +1,6 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=II4LNBwsEtE&t=0s "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/II4LNBwsEtE "Everything Is AWESOME")
 
-## Write and read a file/object
+## প্লট তৈরি করা। 
 
 
 ## অনুশীলনীঃ 

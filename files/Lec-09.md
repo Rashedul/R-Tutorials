@@ -1,11 +1,11 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/QWMFhuByth8 "Everything Is AWESOME")
 
-## dplyr - III
+## dplyr - III - ডেটার সামারি তৈরি করা। 
 
 
 ## অনুশীলনীঃ 
 
-
+- `gapminder` ডেটার প্রতিটা দেশের gdpPercap এর `median` বের করেন। 
 
 ## Script
 

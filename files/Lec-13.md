@@ -1,8 +1,9 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/PwJ43CJy8M4 "Everything Is AWESOME")
 
-##ggplot
+## ggplot() 
 
-[Jenny's slides on ggplot2](https://speakerdeck.com/jennybc/ggplot2-tutorial) 
+
+[জেনিফার ব্রায়ানের ggplot এর উপর স্লাইড](https://speakerdeck.com/jennybc/ggplot2-tutorial) 
 
 
 ## 
