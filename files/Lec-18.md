@@ -1,16 +1,6 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=oz5e-d_U5PU&t=1s "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/oz5e-d_U5PU "Everything Is AWESOME")
 
-## Write and read a file/object
-
-
-## অনুশীলনীঃ 
-
-- Read a file that has missing values. If you get an error, fix it.
-- Try `dplyr` functions to write and read a file/object. See `dplyr` documentations.
-
-## Script
-
-[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-10.R) 
+## আরের cheatsheet, colors সম্পর্কে জেনে নিন। 
 
 
 ## 
