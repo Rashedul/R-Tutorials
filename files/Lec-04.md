@@ -1,8 +1,8 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=JboY1Ghbb4w "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/JboY1Ghbb4w "Everything Is AWESOME")
 
 ## R প্রোগ্রামিং এর basic functions
 
-- basic functions আর ইন্সটল করার সাথে সাথেই লোড হয়ে যায়, আমাদের আলাদা কিছু করতে হয়না। 
+- আরের basic functions আর ইন্সটল করার সাথে সাথেই লোড হয়ে যায়, আমাদের আলাদা কিছু করতে হয়না। 
 
 - কোন data খুব সহজে বুঝতে basic functions গুলা আমরা বারবার ব্যবহার করবো। 
 
@@ -13,7 +13,7 @@
 
 ১) একটি ডেটাফ্রেম, x তৈরি করেন যেখানে ১০ টি রো ও ৪ টি কলাম থাকবে, একটি কলাম অবশ্যই character vector হতে হবে। 
 
-২) সেই Datafreme এর উপর সবগুলা ফাংশন ব্যবহার করুন।
+২) সেই Datafreme এর উপর ক্লাসে দেখানো basic functions ফাংশনগুলা ব্যবহার করুন।
 
 
 ## Script
