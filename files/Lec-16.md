@@ -1,4 +1,4 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/igV72pP_3Yo "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/lfno9aOntXQ "Everything Is AWESOME")
 
 ## Visualizing data distribution
 
@@ -8,6 +8,8 @@
 - combine boxplot and jitter
 
 - make a smaller violin plot inside boxplot
+
+- learn how to use forcats function
 
 ## Script
 
