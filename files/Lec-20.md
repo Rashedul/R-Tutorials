@@ -1,16 +1,16 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=xfvj-IGw8Js&t=3s "Everything Is AWESOME")
 
-## Write and read a file/object
+## Conditinal statements
+
+
 
 
 ## অনুশীলনীঃ 
 
-- Read a file that has missing values. If you get an error, fix it.
-- Try `dplyr` functions to write and read a file/object. See `dplyr` documentations.
 
 ## Script
 
-[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-10.R) 
+[ক্লাসের script পাওয়া যাবে এখানে](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/Lec-20.R) 
 
 
 ## 
