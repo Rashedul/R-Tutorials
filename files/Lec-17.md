@@ -1,13 +1,16 @@
 [![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=sKD8c16lR_Y "Everything Is AWESOME")
 
-## Use of cheatsheet and change colors
+## faceting, coordinate_flip() and theme()
 
 
 ## অনুশীলনীঃ 
 
-- Make new plots from cheatsheet 
+- Make new violin plots and use coordinate_flip() 
 
-- change colors on your plots
+- Make the font size 20 using theme() 
+
+- Find the differences between `fatet_wrap()` and `facet_grid()`
+
 
 ## Script
 
