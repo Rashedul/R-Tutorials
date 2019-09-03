@@ -49,8 +49,12 @@ gapminder %>%
     filter(year == 1952) %>% 
     ggplot(aes(continent, pop)) +
     geom_col()
+```
 
-#stacked bar
+
+## stacked bar
+
+```{r}
 gapminder %>%
     filter(year >= 1952 & year <= 1970) %>%
     ggplot(aes(year, pop)) +

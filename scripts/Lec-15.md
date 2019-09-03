@@ -114,13 +114,16 @@ gapminder %>%
 
 ![](Lec-15_files/figure-html/unnamed-chunk-3-4.png)<!-- -->
 
+
+## stacked bar
+
+
 ```r
-#stacked bar
 gapminder %>%
     filter(year >= 1952 & year <= 1970) %>%
     ggplot(aes(year, pop)) +
     geom_bar(stat = "identity", aes(fill = continent))
 ```
 
-![](Lec-15_files/figure-html/unnamed-chunk-3-5.png)<!-- -->
+![](Lec-15_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
