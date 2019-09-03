@@ -1,20 +1,25 @@
 
 ## ভিডিও লেকচার
 
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=KL7a15o0WC4 "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/KL7a15o0WC4 "Everything Is AWESOME")
 
 
 ## Dataframe in R
 
 
-- `dataframe` হচ্ছে সবচেয়ে বেশি R ডেটা স্ট্রাকচার। 
+- `dataframe` হচ্ছে এর সবচেয়ে বেশি ব্যবহৃত ডেটা স্ট্রাকচার। 
 
-- অধিকাংশ পেকেজ বা R ফাংশন `dataframe` কে ব্যবহার করে। 
+- অধিকাংশ পেকেজ বা R ফাংশন `dataframe` ব্যবহার করে থাকে। 
 
-- একটি `dataframe` এ কিকি ধরনের উপাদান রয়েছে বা কি তথ্য রয়েছে তা জানার জন্য অনেক R ফাংশন রয়েছে। 
+- একটি `dataframe` এ কি কি ধরনের উপাদান রয়েছে বা কি তথ্য রয়েছে তা জানার জন্য অনেক R ফাংশন রয়েছে। 
 
 - এই লেকচারে `dataframe` কি, কিভাবে `dataframe` তৈরি করা যায় বা `dataframe` এর তথ্যকে কিভাবে জানা যায় ও তা নিয়ে কাজ করা যায় তার কিছু উদাহরণ দেয়া হয়েছে। 
 
+## অনুশীলনীঃ 
+
+- একটি `dataframe` তৈরি করেন যেখানে ৫ টি কলাম ও ৫ টি রো রয়েছে সেখানে ইচ্ছামত সংখ্যা বসিয়ে নিন। `dataframe` এর নাম দিন `my_dataframe`
+
+- `my_dataframe` এর উপর `str()`, `class()`, `dim()`, `colnames()` ব্যবহার করেন।
 
 ## Script
 
