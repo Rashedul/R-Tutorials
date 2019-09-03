@@ -1,4 +1,4 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/igV72pP_3Yo "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=oz5e-d_U5PU&t=1s "Everything Is AWESOME")
 
 ## Write and read a file/object
 

@@ -48,6 +48,8 @@
 
 ১২)  [__লেকচার - ১২ - Heatmap__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-12.md)
 
+১২)  [__লেকচার - ১২ - PCA and Clustering__- `pheatmap()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
+
 ১৩)  [__লেকচার - ১৩ - ggplot - I__- `basic structure`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-13.md)
 
 ১৪)  [__লেকচার - ১৪ - ggplot - II__- `geom_point()`, `geom_line()`, `layered graphics`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)

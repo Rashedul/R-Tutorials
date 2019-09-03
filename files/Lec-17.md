@@ -1,4 +1,4 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/igV72pP_3Yo "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=sKD8c16lR_Y "Everything Is AWESOME")
 
 ## Use of cheatsheet and change colors
 
