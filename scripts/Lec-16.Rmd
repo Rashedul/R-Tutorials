@@ -1,0 +1,88 @@
+---
+title: "box and violin plots"
+author: "Rashedul"
+date: "7/2/2019"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## load libraries
+
+```{r}
+#install.packages("tidyverse")
+library(tidyverse)
+library(gapminder)
+```
+
+## check data
+
+```{r}
+head(gapminder)
+```
+
+## make boxplot
+
+```{r}
+#boxplot
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_boxplot()
+
+```
+
+## make violin plot
+
+```{r}
+#violin
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_violin(draw_quantiles = c(.25, .5, .75)) 
+
+#color
+ggplot(gapminder, aes(continent, lifeExp, color = continent)) +
+    geom_violin(draw_quantiles = c(.25, .5, .75)) 
+
+#fill color
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_violin(draw_quantiles = c(.25, .5, .75)) 
+```
+
+# make violin with jitter
+
+```{r}
+#jitter
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_violin(draw_quantiles = c(.25, .5, .75)) +
+    geom_jitter()
+
+#jitter
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_jitter() +
+    geom_violin(draw_quantiles = c(.25, .5, .75)) 
+
+#jitter
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_jitter(alpha = .2) +
+    geom_violin(draw_quantiles = c(.25, .5, .75)) 
+
+```
+
+## change order of axis labels
+
+```{r}
+#
+gapminder$continent = factor(gapminder$continent, levels = c("Oceania", "Europe", "Americas", "Asia", "Africa"))
+
+#jitter
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_jitter(alpha = .2) +
+    geom_violin(draw_quantiles = c(.25, .5, .75)) 
+
+```
+
+> [check documentation of forcats()](https://forcats.tidyverse.org/)
+
+
