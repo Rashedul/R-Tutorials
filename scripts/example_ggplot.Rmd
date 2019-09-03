@@ -1,0 +1,94 @@
+---
+title: "faceting, coordinate_flip() and theme()"
+author: "Rashedul"
+date: "7/2/2019"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## load libraries
+
+```{r}
+library(tidyverse)
+library(gapminder)
+```
+
+## check data
+
+```{r}
+head(gapminder)
+```
+
+## make facet
+
+```{r}
+#facet
+ggplot(gapminder, aes(lifeExp, gdpPercap)) +
+    geom_point() + 
+    facet_grid(continent~.)
+
+```
+
+> Check facet_wrap() function
+
+
+
+## coordinate flip
+
+
+```{r}
+ggplot(gapminder, aes(continent, lifeExp)) +
+    geom_boxplot() +
+    coord_flip()
+```
+
+# change theme
+
+```{r}
+#theme
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_boxplot() +
+    theme_bw()
+
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_boxplot() +
+    theme_classic()
+
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_boxplot() +
+    theme_dark()
+
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_boxplot() +
+    theme_light()
+
+#example of changing axis parameters
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_boxplot() +
+    theme(panel.background = element_rect(fill = "white"),
+        panel.border = element_rect(fill = NA, colour = "black", size = 1),
+        strip.text = element_text(face = "bold", size = 15),
+        strip.background =element_rect(fill="white"),
+        text = element_text(size=15, face = "bold"),
+        axis.text.x = element_text(color = "black", angle = 90, hjust = 1),
+        axis.text.y = element_text(color = "black"))
+
+# remove legends using legend.position="none"
+ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
+    geom_boxplot() +
+    theme(panel.background = element_rect(fill = "white"),
+        panel.border = element_rect(fill = NA, colour = "black", size = 1),
+        strip.text = element_text(face = "bold", size = 15),
+        strip.background =element_rect(fill="white"),
+        text = element_text(size=15, face = "bold"),
+        axis.text.x = element_text(color = "black", angle = 90, hjust = 1),
+        axis.text.y = element_text(color = "black"),
+        legend.position="none")
+
+```
+
