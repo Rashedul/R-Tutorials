@@ -9,7 +9,7 @@ output:
 
 
 
-#### load libraries
+### load libraries
 
 
 ```r
@@ -39,7 +39,7 @@ library(tidyverse)
 library(gapminder)
 ```
 
-#### check data
+### check data
 
 
 ```r
@@ -58,7 +58,7 @@ head(gapminder)
 ## 6 Afghanistan Asia       1977    38.4 14880372      786.
 ```
 
-#### make scatter plot 
+### make scatter plot 
 
 
 ```r
@@ -68,7 +68,7 @@ ggplot(gapminder, aes(gdpPercap, lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 
-#### log transformation of values
+### log transformation of values
 
 
 ```r
@@ -88,7 +88,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-4-2.png)<!-- -->
 
-#### change color in scatter plot
+### change color in scatter plot
 
 
 ```r
@@ -106,7 +106,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-5-2.png)<!-- -->
 
-#### change some other parameters in scatter plot
+### change some other parameters in scatter plot
 
 
 ```r
@@ -124,7 +124,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-6-2.png)<!-- -->
 
-#### use smoothing function
+### use smoothing function
 
 
 ```r
@@ -139,7 +139,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
-#### specify the method for smoothing
+### specify the method for smoothing
 
 
 ```r
@@ -176,7 +176,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-8-3.png)<!-- -->
 
-#### example on faceting
+### example on faceting
 
 
 ```r
@@ -187,7 +187,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
-#### change faceting  by column
+### change faceting  by column
 
 
 ```r
@@ -198,7 +198,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
 
-#### change faceting by row
+### change faceting by row
 
 
 ```r
@@ -209,7 +209,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
-#### boxplot and jitter
+### boxplot and jitter
 
 
 ```r
@@ -239,7 +239,7 @@ ggplot(gapminder, aes(continent, lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-12-3.png)<!-- -->
 
-#### violin and jitter
+### violin and jitter
 
 
 ```r
@@ -330,7 +330,7 @@ ggplot(gapminder, aes(lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-14-6.png)<!-- -->
 
-#### density plot
+### density plot
 
 
 ```r
@@ -348,7 +348,7 @@ ggplot(gapminder, aes(lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-15-2.png)<!-- -->
 
-#### change alpha (transparancey)
+### change alpha (transparancey)
 
 
 ```r
