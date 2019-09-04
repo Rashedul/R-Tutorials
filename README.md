@@ -60,7 +60,7 @@
 
 ১৮)  [__লেকচার - ১৮ - ggplot -VI__-  `cheatsheet`, `colors`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-18.md)
 
- - [__100 example plots (with codes) using ggplot__](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/example_ggplot.md)
+ - [__100+ example plots (with codes) using ggplot__](https://github.com/Rashedul/R-Tutorials/blob/master/scripts/example_ggplot.md)
 
 ১৯)  [__লেকচার - ১৯ - RMarkdown__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
 

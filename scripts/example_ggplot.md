@@ -366,6 +366,56 @@ ggplot(gapminder, aes(lifeExp)) +
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-16-2.png)<!-- -->
 
+### density and histogram
+
+
+```r
+ggplot(gapminder, aes(lifeExp)) + 
+    geom_density(size=1.5, fill="pink", alpha=0.5) +
+    geom_histogram(aes(y=..density..), binwidth=4, color="black", fill="blue", alpha=0.5)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+
+### time series line plot
+
+
+```r
+ggplot(gapminder, aes(x=year, y=lifeExp, group=country)) +
+    geom_line()
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+
+### line plot for median life exp
+
+
+```r
+gapminder %>%
+    group_by(continent, year) %>%
+    summarise(lifeExp=median(lifeExp)) %>%
+    ggplot(aes(x=year, y=lifeExp, color=continent)) +
+     geom_line(size=1) + 
+     geom_point(size=1.5) 
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
+
+### line plot for median life exp and smooth
+
+
+```r
+gapminder %>%
+    group_by(continent, year) %>%
+    summarise(lifeExp=median(lifeExp)) %>%
+    ggplot(aes(x=year, y=lifeExp, color=continent)) +
+     geom_line(size=1) + 
+     geom_point(size=1.5) +
+    geom_smooth(aes(fill=continent), method="lm")
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-20-1.png)<!-- -->
+
 
 
 

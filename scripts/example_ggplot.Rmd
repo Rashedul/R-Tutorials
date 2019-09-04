@@ -207,6 +207,44 @@ ggplot(gapminder, aes(lifeExp)) +
   geom_density(aes(fill=continent), alpha=1/4)
 ```
 
+### density and histogram
+
+```{r}
+ggplot(gapminder, aes(lifeExp)) + 
+    geom_density(size=1.5, fill="pink", alpha=0.5) +
+    geom_histogram(aes(y=..density..), binwidth=4, color="black", fill="blue", alpha=0.5)
+```
+
+### time series line plot
+
+```{r}
+ggplot(gapminder, aes(x=year, y=lifeExp, group=country)) +
+    geom_line()
+```
+
+### line plot for median life exp
+
+```{r}
+gapminder %>%
+    group_by(continent, year) %>%
+    summarise(lifeExp=median(lifeExp)) %>%
+    ggplot(aes(x=year, y=lifeExp, color=continent)) +
+     geom_line(size=1) + 
+     geom_point(size=1.5) 
+```
+
+### line plot for median life exp and smooth
+
+```{r}
+gapminder %>%
+    group_by(continent, year) %>%
+    summarise(lifeExp=median(lifeExp)) %>%
+    ggplot(aes(x=year, y=lifeExp, color=continent)) +
+     geom_line(size=1) + 
+     geom_point(size=1.5) +
+    geom_smooth(aes(fill=continent), method="lm")
+```
+
 
 
 
