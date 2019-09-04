@@ -1,5 +1,5 @@
 ---
-title: "faceting, coordinate_flip() and theme()"
+title: "Examples of using ggplot"
 author: "Rashedul"
 date: "7/2/2019"
 output: 
@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## load libraries
+#### load libraries
 
 ```{r}
 #install.packages("gapminder")
@@ -20,13 +20,13 @@ library(tidyverse)
 library(gapminder)
 ```
 
-## check data
+#### check data
 
 ```{r}
 head(gapminder)
 ```
 
-## make scatter plot 
+#### make scatter plot 
 
 ```{r}
 ggplot(gapminder, aes(gdpPercap, lifeExp)) +
@@ -34,7 +34,7 @@ ggplot(gapminder, aes(gdpPercap, lifeExp)) +
 
 ```
 
-## log transformation of values
+#### log transformation of values
 
 ```{r}
 #
@@ -47,7 +47,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_point()
 ```
 
-# change color
+#### change color in scatter plot
 
 ```{r}
 ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
@@ -58,7 +58,7 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_point(aes(color=continent), size = 3)
 ```
 
-# change some other parameters
+#### change some other parameters in scatter plot
 
 ```{r}
 ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
@@ -70,14 +70,17 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
 
 ```
 
-## use smoothing function
+#### use smoothing function
 
 ```{r}
 ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_point() +
   geom_smooth()
+```
 
-# specify the method for smoothing
+#### specify the method for smoothing
+
+```{r}
 ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_point() +
   geom_smooth(lwd=2, se=FALSE, method="lm", col="blue")
@@ -93,26 +96,31 @@ ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_smooth(aes(color = continent))
 ```
 
-## example on faceting
+#### example on faceting
 
 ```{r}
 ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_point() +
   facet_wrap(~continent)
+```
 
-# change faceting  by column
+#### change faceting  by column
+
+```{r}
 ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_point() +
   facet_wrap(~continent, ncol=1)
+```
 
-# change faceting by row
+#### change faceting by row
+
+```{r}
 ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
   geom_point() +
   facet_wrap(~continent, nrow =1)
 ```
 
-
-## voilin, boxplot and jitter
+#### boxplot and jitter
 
 ```{r}
 #boxplot
@@ -120,23 +128,37 @@ ggplot(gapminder, aes(continent, lifeExp)) +
   geom_jitter() +
   geom_boxplot()
 
-#color
-ggplot(gapminder, aes(continent, lifeExp), fill = continent) +
+#alpha
+ggplot(gapminder, aes(continent, lifeExp)) +
   geom_jitter(alpha=1/2) +
   geom_boxplot()
 
-#violin
+#fill color
+ggplot(gapminder, aes(continent, lifeExp)) +
+  geom_jitter(alpha=1/2) +
+  geom_boxplot(aes(fill = continent))
+
+```
+
+#### violin and jitter
+
+```{r}
 ggplot(gapminder, aes(continent, lifeExp)) +
   geom_jitter() +
   geom_violin()
 
-#color
+#alpha
 ggplot(gapminder, aes(continent, lifeExp), fill = continent) +
   geom_jitter(alpha=1/2) +
   geom_violin()
+
+#color
+ggplot(gapminder, aes(continent, lifeExp), fill = continent) +
+  geom_jitter(alpha=1/2) +
+  geom_violin(aes(fill = continent))
 ```
 
-## histograms
+### histograms
 
 ```{r}
 ggplot(gapminder, aes(lifeExp)) +
@@ -157,9 +179,13 @@ ggplot(gapminder, aes(lifeExp)) +
 # color by continent
 ggplot(gapminder, aes(lifeExp)) + 
   geom_histogram(aes(color=continent))
+
+#fill
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_histogram(aes(fill=continent))
 ```
 
-## density plot
+#### density plot
 
 ```{r}
 ggplot(gapminder, aes(lifeExp)) + 
@@ -168,8 +194,11 @@ ggplot(gapminder, aes(lifeExp)) +
 # color
 ggplot(gapminder, aes(lifeExp)) + 
   geom_density(aes(fill= "red"))
+```
 
-# change alpha
+#### change alpha (transparancey)
+
+```{r}
 ggplot(gapminder, aes(lifeExp)) + 
   geom_density(aes(fill= "red"), alpha=1/4)
 
