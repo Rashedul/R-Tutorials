@@ -13,11 +13,13 @@ output:
 
 
 ```r
+#install.packages("gapminder")
+#install.packages("tidyverse")
 library(tidyverse)
 ```
 
 ```
-## ── Attaching packages ───────────────────────────────────────── tidyverse 1.2.1 ──
+## ── Attaching packages ──────────────────────── tidyverse 1.2.1 ──
 ```
 
 ```
@@ -28,7 +30,7 @@ library(tidyverse)
 ```
 
 ```
-## ── Conflicts ──────────────────────────────────────────── tidyverse_conflicts() ──
+## ── Conflicts ─────────────────────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
 ```
@@ -56,98 +58,276 @@ head(gapminder)
 ## 6 Afghanistan Asia       1977    38.4 14880372      786.
 ```
 
-## make facet
+## make scatter plot 
 
 
 ```r
-#facet
-ggplot(gapminder, aes(lifeExp, gdpPercap)) +
-    geom_point() + 
-    facet_grid(continent~.)
+ggplot(gapminder, aes(gdpPercap, lifeExp)) +
+  geom_point()
 ```
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 
-> Check facet_wrap() function
-
-
-
-## coordinate flip
-
+## log transformation of values
 
 
 ```r
-ggplot(gapminder, aes(continent, lifeExp)) +
-    geom_boxplot() +
-    coord_flip()
+#
+ggplot(gapminder, aes(gdpPercap, lifeExp)) +
+  geom_point() +
+  scale_x_log10()
 ```
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
-# change theme
+```r
+# try another way
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point()
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-4-2.png)<!-- -->
+
+# change color
 
 
 ```r
-#theme
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_bw()
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(aes(color=continent))
 ```
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 ```r
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_classic()
+#change sige of points
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(aes(color=continent), size = 3)
 ```
 
 ![](example_ggplot_files/figure-html/unnamed-chunk-5-2.png)<!-- -->
 
-```r
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_dark()
-```
+# change some other parameters
 
-![](example_ggplot_files/figure-html/unnamed-chunk-5-3.png)<!-- -->
 
 ```r
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_light()
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(pch=17, size=2, alpha= .8, aes(color=continent)) 
 ```
 
-![](example_ggplot_files/figure-html/unnamed-chunk-5-4.png)<!-- -->
+![](example_ggplot_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 ```r
-#example of changing axis parameters
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme(panel.background = element_rect(fill = "white"),
-        panel.border = element_rect(fill = NA, colour = "black", size = 1),
-        strip.text = element_text(face = "bold", size = 15),
-        strip.background =element_rect(fill="white"),
-        text = element_text(size=15, face = "bold"),
-        axis.text.x = element_text(color = "black", angle = 90, hjust = 1),
-        axis.text.y = element_text(color = "black"))
+# what about this
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(pch=17, size=2, alpha= .8, color= "red")
 ```
 
-![](example_ggplot_files/figure-html/unnamed-chunk-5-5.png)<!-- -->
+![](example_ggplot_files/figure-html/unnamed-chunk-6-2.png)<!-- -->
+
+## use smoothing function
+
 
 ```r
-# remove legends using legend.position="none"
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme(panel.background = element_rect(fill = "white"),
-        panel.border = element_rect(fill = NA, colour = "black", size = 1),
-        strip.text = element_text(face = "bold", size = 15),
-        strip.background =element_rect(fill="white"),
-        text = element_text(size=15, face = "bold"),
-        axis.text.x = element_text(color = "black", angle = 90, hjust = 1),
-        axis.text.y = element_text(color = "black"),
-        legend.position="none")
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  geom_smooth()
 ```
 
-![](example_ggplot_files/figure-html/unnamed-chunk-5-6.png)<!-- -->
+```
+## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+
+```r
+# specify the method for smoothing
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  geom_smooth(lwd=2, se=FALSE, method="lm", col="blue")
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-7-2.png)<!-- -->
+
+```r
+# smooth by continent
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  geom_smooth(aes(color = continent))
+```
+
+```
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-7-3.png)<!-- -->
+
+```r
+# smooth by continent
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(aes(color = continent)) +
+  geom_smooth(aes(color = continent))
+```
+
+```
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-7-4.png)<!-- -->
+
+## example on faceting
+
+
+```r
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  facet_wrap(~continent)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+
+```r
+# change faceting  by column
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  facet_wrap(~continent, ncol=1)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-8-2.png)<!-- -->
+
+```r
+# change faceting by row
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  facet_wrap(~continent, nrow =1)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-8-3.png)<!-- -->
+
+
+## voilin, boxplot and jitter
+
+
+```r
+#boxplot
+ggplot(gapminder, aes(continent, lifeExp)) +
+  geom_jitter() +
+  geom_boxplot()
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+
+```r
+#color
+ggplot(gapminder, aes(continent, lifeExp), fill = continent) +
+  geom_jitter(alpha=1/2) +
+  geom_boxplot()
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-9-2.png)<!-- -->
+
+```r
+#violin
+ggplot(gapminder, aes(continent, lifeExp)) +
+  geom_jitter() +
+  geom_violin()
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-9-3.png)<!-- -->
+
+```r
+#color
+ggplot(gapminder, aes(continent, lifeExp), fill = continent) +
+  geom_jitter(alpha=1/2) +
+  geom_violin()
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-9-4.png)<!-- -->
+
+## histograms
+
+
+```r
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram()
+```
+
+```
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+
+```r
+# change binsize
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram(bins=50)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-10-2.png)<!-- -->
+
+```r
+#
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram(bins=100)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-10-3.png)<!-- -->
+
+```r
+#
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram(bins=500) 
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-10-4.png)<!-- -->
+
+```r
+# color by continent
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_histogram(aes(color=continent))
+```
+
+```
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-10-5.png)<!-- -->
+
+## density plot
+
+
+```r
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density()
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+
+```r
+# color
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density(aes(fill= "red"))
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-11-2.png)<!-- -->
+
+```r
+# change alpha
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density(aes(fill= "red"), alpha=1/4)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-11-3.png)<!-- -->
+
+```r
+#
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density(aes(fill=continent), alpha=1/4)
+```
+
+![](example_ggplot_files/figure-html/unnamed-chunk-11-4.png)<!-- -->
+
+
+
+
 

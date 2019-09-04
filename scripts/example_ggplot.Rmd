@@ -14,6 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ## load libraries
 
 ```{r}
+#install.packages("gapminder")
+#install.packages("tidyverse")
 library(tidyverse)
 library(gapminder)
 ```
@@ -24,71 +26,159 @@ library(gapminder)
 head(gapminder)
 ```
 
-## make facet
+## make scatter plot 
 
 ```{r}
-#facet
-ggplot(gapminder, aes(lifeExp, gdpPercap)) +
-    geom_point() + 
-    facet_grid(continent~.)
+ggplot(gapminder, aes(gdpPercap, lifeExp)) +
+  geom_point()
 
 ```
 
-> Check facet_wrap() function
-
-
-
-## coordinate flip
-
+## log transformation of values
 
 ```{r}
+#
+ggplot(gapminder, aes(gdpPercap, lifeExp)) +
+  geom_point() +
+  scale_x_log10()
+
+# try another way
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point()
+```
+
+# change color
+
+```{r}
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(aes(color=continent))
+
+#change sige of points
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(aes(color=continent), size = 3)
+```
+
+# change some other parameters
+
+```{r}
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(pch=17, size=2, alpha= .8, aes(color=continent)) 
+
+# what about this
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(pch=17, size=2, alpha= .8, color= "red")
+
+```
+
+## use smoothing function
+
+```{r}
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  geom_smooth()
+
+# specify the method for smoothing
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  geom_smooth(lwd=2, se=FALSE, method="lm", col="blue")
+
+# smooth by continent
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  geom_smooth(aes(color = continent))
+
+# smooth by continent
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point(aes(color = continent)) +
+  geom_smooth(aes(color = continent))
+```
+
+## example on faceting
+
+```{r}
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  facet_wrap(~continent)
+
+# change faceting  by column
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  facet_wrap(~continent, ncol=1)
+
+# change faceting by row
+ggplot(gapminder, aes(log10(gdpPercap), lifeExp)) +
+  geom_point() +
+  facet_wrap(~continent, nrow =1)
+```
+
+
+## voilin, boxplot and jitter
+
+```{r}
+#boxplot
 ggplot(gapminder, aes(continent, lifeExp)) +
-    geom_boxplot() +
-    coord_flip()
+  geom_jitter() +
+  geom_boxplot()
+
+#color
+ggplot(gapminder, aes(continent, lifeExp), fill = continent) +
+  geom_jitter(alpha=1/2) +
+  geom_boxplot()
+
+#violin
+ggplot(gapminder, aes(continent, lifeExp)) +
+  geom_jitter() +
+  geom_violin()
+
+#color
+ggplot(gapminder, aes(continent, lifeExp), fill = continent) +
+  geom_jitter(alpha=1/2) +
+  geom_violin()
 ```
 
-# change theme
+## histograms
 
 ```{r}
-#theme
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_bw()
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram()
 
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_classic()
+# change binsize
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram(bins=50)
 
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_dark()
+#
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram(bins=100)
 
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme_light()
+#
+ggplot(gapminder, aes(lifeExp)) +
+  geom_histogram(bins=500) 
 
-#example of changing axis parameters
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme(panel.background = element_rect(fill = "white"),
-        panel.border = element_rect(fill = NA, colour = "black", size = 1),
-        strip.text = element_text(face = "bold", size = 15),
-        strip.background =element_rect(fill="white"),
-        text = element_text(size=15, face = "bold"),
-        axis.text.x = element_text(color = "black", angle = 90, hjust = 1),
-        axis.text.y = element_text(color = "black"))
-
-# remove legends using legend.position="none"
-ggplot(gapminder, aes(continent, lifeExp, fill = continent)) +
-    geom_boxplot() +
-    theme(panel.background = element_rect(fill = "white"),
-        panel.border = element_rect(fill = NA, colour = "black", size = 1),
-        strip.text = element_text(face = "bold", size = 15),
-        strip.background =element_rect(fill="white"),
-        text = element_text(size=15, face = "bold"),
-        axis.text.x = element_text(color = "black", angle = 90, hjust = 1),
-        axis.text.y = element_text(color = "black"),
-        legend.position="none")
-
+# color by continent
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_histogram(aes(color=continent))
 ```
+
+## density plot
+
+```{r}
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density()
+
+# color
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density(aes(fill= "red"))
+
+# change alpha
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density(aes(fill= "red"), alpha=1/4)
+
+#
+ggplot(gapminder, aes(lifeExp)) + 
+  geom_density(aes(fill=continent), alpha=1/4)
+```
+
+
+
+
 
