@@ -1,4 +1,4 @@
-[![Everything Is AWESOME](../files/youtube.png)](https://www.youtube.com/watch?v=xfvj-IGw8Js&t=3s "Everything Is AWESOME")
+[![Everything Is AWESOME](../files/youtube.png)](https://youtu.be/R4ET2fjDd_I "Everything Is AWESOME")
 
 ## Function in R
 
