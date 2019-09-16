@@ -69,13 +69,13 @@
 
 ২০)  [__লেকচার - ২০ - Conditional statement__- `if/else`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-20.md)
 
-১৯)  [__লেকচার - ১০ - Looping__- `for loop`](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+২১)  [__লেকচার - ২১ - Looping__- `for loop`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-21.md)
 
-২০)  [__লেকচার - ১০ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/RMarkdown_lecture.md)
+২২)  [__লেকচার - ২২ - Function__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-22.md)
 
-২১)  [__লেকচার - ২২ - String processing__-  `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-14.md)
+২৩)  [__লেকচার - ২৩ - String processing__-  `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
-২২)  [__লেকচার - ২২ - PCA and Clustering__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
+২৪)  [__লেকচার - ২৪ - PCA and Clustering__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
 
 
@@ -84,15 +84,15 @@
 
 ### STATISTICAL ANALYSIS
 
-২২)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২২)  [__লেকচার - ১৫ - Numerical Descriptions__- `sum()`, `mean()`, `meadian()`, `mode()`, `log()`, `sqrt()` and `summary()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
-২৩)  [__লেকচার - ১৫ - Statistical distributions__ - `kurtosis()` and `skewness`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২৩)  [__লেকচার - ১৫ - Statistical distributions__ - `kurtosis()` and `skewness`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
-২৪)  [__লেকচার - ১৫ - Regression and Correlation__ - `pearson` and `spearman`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-15.md)
+২৪)  [__লেকচার - ১৫ - Regression and Correlation__ - `pearson` and `spearman`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
-২৫)  [__লেকচার - ১৬ - statistical tests___ - `t.test()` and `ANOVA`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
+২৫)  [__লেকচার - ১৬ - statistical tests___ - `t.test()` and `ANOVA`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
-২৬)  [__লেকচার - ১৬ - statistical tests___ - `p-value` and `adjusted p-value`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-16.md)
+২৬)  [__লেকচার - ১৬ - statistical tests___ - `p-value` and `adjusted p-value`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
 
 ### USEFUL RESOURCES

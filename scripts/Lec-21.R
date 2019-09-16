@@ -1,18 +1,28 @@
-library(gapminder)
+# use for loop to print 1:10
 
-head(gapminder)
+for (index in 1:10)
+{
+    print(index)
+}
 
-write.table(gapminder, "~/Downloads/my_gapminder.txt", quote = FALSE, row.names = F, sep = "|")
+# 
+for (index in 1:10)
+{
+    print(c("index =", index))
+}
+
+# multiply 1 by 1:10
+
+for (index in 1:10)
+{
+    print(3*index)
+}
 
 #
-x = read.table("~/Downloads/my_gapminder.txt", sep = "|", header = T)
-colnames(x)
+for (index in 1:10)
+{
+    print(c(3, "*", index, "=", 3*index))
+}
 
 #
-#install.packages("gdata")
-library(gdata)
 
-xl = read.xls("~/Downloads/example-file.xlsx")
-
-#
-#
