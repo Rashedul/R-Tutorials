@@ -71,7 +71,7 @@
 
 ২১)  [__লেকচার - ২১ - Looping__- `for loop`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-21.md)
 
-২২)  [__লেকচার - ২২ - `Function` __](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-22.md)
+২২)  [__লেকচার - ২২ - `Function`__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-22.md)
 
 ২৩)  [__লেকচার - ২৩ - String processing__-  `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
