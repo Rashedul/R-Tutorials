@@ -73,10 +73,13 @@
 
 ২২)  [__লেকচার - ২২ - `Function`__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-22.md)
 
-২৩)  [__লেকচার - ২৩ - String processing__-  `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
+২৩)  [__লেকচার - ২৩ - Clustering__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
-২৪)  [__লেকচার - ২৪ - PCA and Clustering__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
+২৪)  [__লেকচার - ২৪ - PCA__](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
+২৫)  [__লেকচার - ২৫ - String processing__- I -  `apply functions`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
+
+২৬)  [__লেকচার - ২৬ - String processing__- II - `stringr()`](https://github.com/Rashedul/R-Tutorials/blob/master/files/Lec-.md)
 
 
 #### coming next...
